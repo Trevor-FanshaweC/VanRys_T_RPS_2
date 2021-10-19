@@ -1,6 +1,6 @@
 name = "Trevor"
 eyeColor = "blue"
-heightInFeet = 6
+heightInFeet = 5
 hairColour = "reddish"
 
 print("================================")
