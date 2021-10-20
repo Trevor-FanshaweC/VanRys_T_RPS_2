@@ -1,10 +1,11 @@
-name = "Trevor"
-eyeColor = "blue"
-heightInFeet = 5
-hairColour = "reddish"
+from random import randint
 
-print("================================")
-print("My name is " + name + " and I have " + eyeColor + " eyes")
-print("I'm about " + str(heightInFeet) + " feet tall and have " + hairColour + "hair.")
-print("I look a bit like a Fraggle, actually.")
-print("================================")
+choices = ["rock", "paper", "scissors"]
+
+# player will be the weapon the player chooses via input
+player = input("Choose your weapon: rock, paper or scissors: ")
+
+computer = choices[randint(0, 2)]
+
+print("player chose: " + player)
+print("computer chose: " + computer)
